@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@400;700&family=Open+Sans:wght@800&display=swap');
+
+:root{
+    --background-color : #FAF7FD;
+    --text-color : #41414D;
+    --icon-color : #41414D;
+
+}
+
+html {
+    font-size : 62.5%;
+}
+
+body {
+    font-size : 1.6rem;
+    margin : 0;
+    height : 100vh;
+    background: var(--background-color);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+@font-face {
+    font-family:'Polaris' ;
+    src: url('Polaris.otf');
+}
+
+.main-box{
+    width: 100%;
+    height: 100vh;
+    background: var(--background-color);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.text-box{
+    text-align: center;
+}
+
+.text-box h2{
+    color: var(--text-color);
+    letter-spacing: 5px;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+
+.links-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link{
+    border: 2px solid var(--text-color);
+    width: 329px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+
+
+.media-box{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.link a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 16px;
+    transition: 2ms;
+}
+
+.link a:hover{
+    font-size: 16.5px;
+}
+
+.social-media img{
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
+    transition : all 300ms ease-in-out;
+}
+
+.social-media img:hover{
+    transform : scale(1.05);
+}
+
+footer{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 10px;
+}
+
+footer a{
+    font-size: 14px;
+    color: var(--icon-color);
+    font-weight: 500;
+    word-spacing: 2px;
+}
+
+.theme-box{
+    margin-bottom: -52px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#theme{
+    display: none;
+}
+
+#theme-icon{
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+    transition : all 300ms ease-in-out;
+}
+
+#theme-icon:hover{
+    transform : scale(1.05);
+}
